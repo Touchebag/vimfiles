@@ -40,6 +40,9 @@ execute pathogen#infect()
 let g:syntastic_enable_signs=1
 let g:syntastic_check_on_open=1
 
+"Maximises window
+au GUIEnter * simalt ~x
+
 "{{{ Set options
 "Set default fileformat to unix
 set fileformats=unix,dos

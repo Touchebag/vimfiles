@@ -86,6 +86,9 @@ set lazyredraw
 
 "Cursor marking
 set cursorline cursorcolumn
+
+"Setting g flag for serach and replace as default
+set gdefault
 "}}}
 
 "{{{ Colour and highlighting options
@@ -147,5 +150,4 @@ nnoremap k gk
 "Unbind help shortcut
 nnoremap <S-K> <Nop>
 "}}}
-
 

@@ -60,9 +60,6 @@ set guioptions-=r
 "Left scrollbar
 set guioptions-=L
 
-"Just in case
-set nohlsearch
-
 "Line numbering
 set relativenumber
 set number
@@ -99,7 +96,7 @@ set gdefault
 let hostname = substitute(system('hostname'), '\n', '', '')
 if hostname == "robin-laptop"
 "High contrast color scheme for laptop
-        colorscheme koehler
+        colorscheme pablo
 "TODO check name
 elseif hostname == "Robin-PC"
 "Noraml colourscheme for PC

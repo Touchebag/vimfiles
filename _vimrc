@@ -108,15 +108,15 @@ highlight CursorLine guibg=#555555
 highlight CursorColumn guibg=#AAAAAA
 
 "Colour of TODO tag
-highlight TodoColor guifg=white guibg=blue
+"highlight TodoColor guifg=white guibg=blue
 
 "Automatically higlight TODO tag
 augroup HiglightTODO
     autocmd!
-    autocmd WinEnter,VimEnter * :silent! call matchadd('TodoColor', 'TODO', -1)
+    autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
 augroup END
 
-"Highligt long lines after column 80
+"Highlight long lines after column 80
 match Error /\%81v.\+/
 "}}}
 

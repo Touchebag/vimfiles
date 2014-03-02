@@ -97,24 +97,29 @@ let hostname = substitute(system('hostname'), '\n', '', '')
 if hostname == "robin-laptop"
 "High contrast color scheme for laptop
         colorscheme pablo
-"TODO check name
+
+        "Automatically higlight TODO tag
+        augroup HiglightTODO
+                autocmd!
+                autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
+        augroup END
 elseif hostname == "Robin-PC"
 "Noraml colourscheme for PC
         colorscheme mustang
+
+        "Colour of TODO tag
+        highlight TodoColor guifg=white guibg=blue
+
+        "Automatically higlight TODO tag
+        augroup HiglightTODO
+            autocmd!
+            autocmd WinEnter,VimEnter * :silent! call matchadd('TodoColor', 'TODO', -1)
+        augroup END
 endif
 
 "Colour of cursor marking
 highlight CursorLine guibg=#555555
 highlight CursorColumn guibg=#AAAAAA
-
-"Colour of TODO tag
-"highlight TodoColor guifg=white guibg=blue
-
-"Automatically higlight TODO tag
-augroup HiglightTODO
-    autocmd!
-    autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
-augroup END
 
 "Highlight long lines after column 80
 match Error /\%81v.\+/

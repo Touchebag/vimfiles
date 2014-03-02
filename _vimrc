@@ -75,6 +75,15 @@ set nolist
 set textwidth=0
 set wrapmargin=0
 
+"Set size of tabs
+set tabstop=3
+
+"Set size of an indent
+set shiftwidth=3
+
+"Make tab insert indents instead of tabs
+set smarttab
+
 "Replace tabs with spaces
 set expandtab
 
@@ -96,25 +105,25 @@ set gdefault
 let hostname = substitute(system('hostname'), '\n', '', '')
 if hostname == "robin-laptop"
 "High contrast color scheme for laptop
-        colorscheme pablo
+   colorscheme pablo
 
-        "Automatically higlight TODO tag
-        augroup HiglightTODO
-                autocmd!
-                autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
-        augroup END
+   "Automatically higlight TODO tag
+   augroup HiglightTODO
+      autocmd!
+      autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
+   augroup END
 elseif hostname == "Robin-PC"
 "Noraml colourscheme for PC
-        colorscheme mustang
+   colorscheme mustang
 
-        "Colour of TODO tag
-        highlight TodoColor guifg=white guibg=blue
+   "Colour of TODO tag
+   highlight TodoColor guifg=white guibg=blue
 
-        "Automatically higlight TODO tag
-        augroup HiglightTODO
-            autocmd!
-            autocmd WinEnter,VimEnter * :silent! call matchadd('TodoColor', 'TODO', -1)
-        augroup END
+   "Automatically higlight TODO tag
+   augroup HiglightTODO
+      autocmd!
+      autocmd WinEnter,VimEnter * :silent! call matchadd('TodoColor', 'TODO', -1)
+   augroup END
 endif
 
 "Colour of cursor marking

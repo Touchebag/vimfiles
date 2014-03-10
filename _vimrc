@@ -1,7 +1,20 @@
+"Get the hostname
+let hostname = substitute(system('hostname'), '\n', '', '')
+
 set nocompatible
-source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
-behave mswin
+
+"Use windows bindings in windows
+if hostname == "Robin-PC"
+   source $VIMRUNTIME/vimrc_example.vim
+   source $VIMRUNTIME/mswin.vim
+   behave mswin
+
+   "Maximises window
+   au GUIEnter * simalt ~x
+elseif hostname == "robin-laptop"
+   "TODO make it work
+   noremap <C-q> <C-v> 
+endif
 "{{{ Special diff function (redundant)
 "set diffexpr=MyDiff()
 "function MyDiff()
@@ -39,9 +52,6 @@ execute pathogen#infect()
 "Syntastic
 let g:syntastic_enable_signs=1
 let g:syntastic_check_on_open=1
-
-"Maximises window
-au GUIEnter * simalt ~x
 
 "{{{ Set options
 "Set default fileformat to unix
@@ -101,8 +111,11 @@ set gdefault
 "}}}
 
 "{{{ Colour and highlighting options
-"System dependent colourshceme
-let hostname = substitute(system('hostname'), '\n', '', '')
+"Colour of cursor marking
+highlight CursorLine guibg=#555555
+highlight CursorColumn guibg=#AAAAAA
+
+"System dependent colour settings
 if hostname == "robin-laptop"
 "High contrast color scheme for laptop
    colorscheme pablo
@@ -112,8 +125,11 @@ if hostname == "robin-laptop"
       autocmd!
       autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
    augroup END
+   
+   "Fixing line higlighting in terminal
+   highlight CursorLine cterm=NONE ctermbg=59
 elseif hostname == "Robin-PC"
-"Noraml colourscheme for PC
+"Normal colourscheme for PC
    colorscheme mustang
 
    "Colour of TODO tag
@@ -125,10 +141,6 @@ elseif hostname == "Robin-PC"
       autocmd WinEnter,VimEnter * :silent! call matchadd('TodoColor', 'TODO', -1)
    augroup END
 endif
-
-"Colour of cursor marking
-highlight CursorLine guibg=#555555
-highlight CursorColumn guibg=#AAAAAA
 
 "Highlight long lines after column 80
 match Error /\%81v.\+/
@@ -163,5 +175,8 @@ nnoremap k gk
 
 "Unbind help shortcut
 nnoremap <S-K> <Nop>
+
+"Yank rest of line
+nnoremap <S-Y> <S-D>u
 "}}}
 

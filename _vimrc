@@ -108,6 +108,9 @@ set cursorline cursorcolumn
 
 "Setting g flag for serach and replace as default
 set gdefault
+
+"MAke sure hlsearch is on
+set hlsearch
 "}}}
 
 "{{{ Colour and highlighting options

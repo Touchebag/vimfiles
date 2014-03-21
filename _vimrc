@@ -128,7 +128,7 @@ if hostname == "robin-laptop"
       autocmd!
       autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
    augroup END
-   
+
    "Fixing line higlighting in terminal
    highlight CursorLine cterm=NONE ctermbg=59
 elseif hostname == "Robin-PC"
@@ -147,6 +147,13 @@ endif
 
 "Highlight long lines after column 80
 match Error /\%81v.\+/
+
+"Hightlight trailing spaces
+augroup trailing
+  au!
+  au InsertEnter * :match none /\s\+$/
+  au InsertLeave * :match Error /\s\+$/
+augroup END
 "}}}
 
 "{{{ Mappings

@@ -13,7 +13,7 @@ if hostname == "Robin-PC"
    au GUIEnter * simalt ~x
 elseif hostname == "robin-laptop"
    "TODO make it work
-   noremap <C-q> <C-v> 
+   noremap <C-q> <C-v>
 endif
 "{{{ Special diff function (redundant)
 "set diffexpr=MyDiff()
@@ -157,6 +157,12 @@ augroup END
 "}}}
 
 "{{{ Mappings
+"Unbind f1
+nnoremap <f1> <nop>
+
+"Reload source
+nnoremap <f5> :source %<cr>
+
 "Quick Tabularize command
 nnoremap <Leader>tb :Tabularize assignment<cr>
 

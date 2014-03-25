@@ -158,7 +158,8 @@ augroup END
 
 "{{{ Mappings
 "Unbind f1
-nnoremap <f1> <nop>
+map <f1> <nop>
+imap <f1> <Esc>
 
 "Reload source
 nnoremap <f5> :source %<cr>

@@ -12,8 +12,6 @@ if hostname == "Robin-PC"
    "Maximises window
    au GUIEnter * simalt ~x
 elseif hostname == "robin-laptop"
-   "TODO make it work
-   noremap <C-q> <C-v>
 endif
 "{{{ Special diff function (redundant)
 "set diffexpr=MyDiff()
@@ -195,5 +193,8 @@ nnoremap <S-K> <Nop>
 
 "Yank rest of line
 nnoremap <S-Y> <S-D>u
+
+"Sorts a block
+nnoremap <Leader>s {j<S-V>}k:sort<cr>
 "}}}
 

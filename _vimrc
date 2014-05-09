@@ -194,7 +194,10 @@ nnoremap <S-K> <Nop>
 "Yank rest of line
 nnoremap <S-Y> <S-D>u
 
+"Selects a block
+nnoremap <Leader>b {<S-V>}k
+
 "Sorts a block
-nnoremap <Leader>s {j<S-V>}k:sort<cr>
+nmap <Leader>s <Leader>b:sort<cr>
 "}}}
 

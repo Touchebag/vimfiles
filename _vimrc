@@ -23,7 +23,8 @@ execute pathogen#infect()
 
 "Syntastic
 let g:syntastic_enable_signs=1
-let g:syntastic_check_on_open=1
+let g:syntastic_mode_map={'mode': 'passive'}
+"let g:syntastic_check_on_open=1
 
 "{{{ Set options
 "Set default fileformat to unix
@@ -81,7 +82,7 @@ set cursorline cursorcolumn
 "Setting g flag for serach and replace as default
 set gdefault
 
-"MAke sure hlsearch is on
+"Make sure hlsearch is on
 set hlsearch
 "}}}
 
@@ -135,6 +136,9 @@ imap <f1> <Esc>
 
 "Reload source
 nnoremap <f5> :source %<cr>
+
+"Syntax check
+nnoremap <f10> :SyntasticCheck<cr>
 
 "Quick Tabularize command
 nnoremap <Leader>tb :Tabularize assignment<cr>

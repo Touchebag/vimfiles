@@ -138,7 +138,7 @@ imap <f1> <Esc>
 nnoremap <f5> :source %<cr>
 
 "Syntax check
-nnoremap <f10> :SyntasticCheck<cr>
+nnoremap <f10> :w<cr>:SyntasticCheck<cr>
 
 "Quick Tabularize command
 nnoremap <Leader>tb :Tabularize assignment<cr>

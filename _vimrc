@@ -36,7 +36,7 @@ set nobackup
 "Remove annoying interface stuffz
 "Menu bar
 set guioptions-=m
-"Tab bar
+"Toolbar
 set guioptions-=T
 "Right scrollbar
 set guioptions-=r

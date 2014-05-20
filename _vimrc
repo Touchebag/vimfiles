@@ -152,8 +152,8 @@ nnoremap <cr> I<cr><Esc>
 "Easy navigation between tabs
 map <C-J> <C-W>j<C-W><Esc>
 map <C-K> <C-W>k<C-W><Esc>
-map <S-H> <C-W>h<C-W><Esc>
-map <S-L> <C-W>l<C-W><Esc>
+map <C-H> <C-W>h<C-W><Esc>
+map <C-L> <C-W>l<C-W><Esc>
 
 "Self-explanatory
 map <C-n> :NERDTreeToggle<CR>

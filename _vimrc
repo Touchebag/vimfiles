@@ -135,7 +135,7 @@ map <f1> <nop>
 imap <f1> <Esc>
 
 "Reload source
-nnoremap <f5> :source %<cr>
+nnoremap <f5> :so $MYVIMRC<cr>
 
 "Syntax check
 nnoremap <f10> :w<cr>:SyntasticCheck<cr>

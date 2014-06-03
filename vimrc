@@ -1,25 +1,52 @@
 "Get the hostname
 let hostname = substitute(system('hostname'), '\n', '', '')
 
+"Force iMproved mode
 set nocompatible
 
-"Use windows bindings in windows
-if hostname == "Robin-PC"
-   source $VIMRUNTIME/vimrc_example.vim
-   source $VIMRUNTIME/mswin.vim
-   behave mswin
+"Vundle requirement
+filetype off
 
-   "Maximises window
-   au GUIEnter * simalt ~x
+"OS specific stuff
+if hostname == "Robin-PC"
+  "Use windows bindings in windows
+  source $VIMRUNTIME/vimrc_example.vim
+  source $VIMRUNTIME/mswin.vim
+  behave mswin
+
+  "Maximises window
+  au GUIEnter * simalt ~x
+
+  "Vundle TODO check if it actually works
+  set rtp+='$HOME/vimfiles/bundle/Vundle.vim'
+  call vundle#begin('$HOME/vimfiles/bundle')
 elseif hostname == "robin-laptop"
+  "Vundle
+  set rtp+=$HOME/.vim/bundle/Vundle.vim
+  call vundle#begin()
 endif
 
 "Syntax highlighting
 filetype plugin on
 syntax on
 
-"Does exactly what it says
-execute pathogen#infect()
+"{{{Vundle plugins
+"Let Vundle handle itself
+Plugin 'gmarik/Vundle.vim'
+
+"Tabularize
+Plugin 'godlygeek/tabular'
+
+"Syntastic
+Plugin 'scrooloose/syntastic'
+
+"NerdTree
+Plugin 'scrooloose/nerdtree'
+"}}}
+
+"End Vundle stuff
+call vundle#end()
+filetype plugin indent on
 
 "Syntastic
 let g:syntastic_enable_signs=1
@@ -94,28 +121,28 @@ highlight CursorColumn guibg=#AAAAAA
 "System dependent colour settings
 if hostname == "robin-laptop"
 "High contrast color scheme for laptop
-   colorscheme pablo
+  colorscheme pablo
 
-   "Automatically higlight TODO tag
-   augroup HiglightTODO
-      autocmd!
-      autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
-   augroup END
+  "Automatically higlight TODO tag
+  augroup HiglightTODO
+    autocmd!
+    autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
+  augroup END
 
-   "Fixing line higlighting in terminal
-   highlight CursorLine cterm=NONE ctermbg=59
+  "Fixing line higlighting in terminal
+  highlight CursorLine cterm=NONE ctermbg=59
 elseif hostname == "Robin-PC"
 "Normal colourscheme for PC
-   colorscheme mustang
+  colorscheme mustang
 
-   "Colour of TODO tag
-   highlight TodoColor guifg=white guibg=blue
+  "Colour of TODO tag
+  highlight TodoColor guifg=white guibg=blue
 
-   "Automatically higlight TODO tag
-   augroup HiglightTODO
-      autocmd!
-      autocmd WinEnter,VimEnter * :silent! call matchadd('TodoColor', 'TODO', -1)
-   augroup END
+  "Automatically higlight TODO tag
+  augroup HiglightTODO
+    autocmd!
+    autocmd WinEnter,VimEnter * :silent! call matchadd('TodoColor', 'TODO', -1)
+  augroup END
 endif
 
 "Highlight long lines after column 80

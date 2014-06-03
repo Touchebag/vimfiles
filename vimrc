@@ -123,6 +123,9 @@ set hlsearch
 
 "Leave a few lines when scrolling
 set scrolloff=3
+
+"Semi-case-insesitive search
+set smartcase
 "}}}
 
 "{{{ Colour and highlighting options

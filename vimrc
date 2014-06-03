@@ -42,6 +42,9 @@ Plugin 'scrooloose/syntastic'
 
 "NerdTree
 Plugin 'scrooloose/nerdtree'
+
+"Easymotion
+Plugin 'Lokaltog/vim-easymotion'
 "}}}
 
 "End Vundle stuff
@@ -204,5 +207,8 @@ nnoremap <Leader>b {<S-V>}k
 
 "Sorts a block
 nmap <Leader>s <Leader>b:sort<cr>
+
+"Easymotion shortcut
+nmap s <Plug>(easymotion-bd-w)
 "}}}
 

@@ -120,6 +120,9 @@ set gdefault
 
 "Make sure hlsearch is on
 set hlsearch
+
+"Leave a few lines when scrolling
+set scrolloff=3
 "}}}
 
 "{{{ Colour and highlighting options

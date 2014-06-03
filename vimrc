@@ -215,7 +215,7 @@ nnoremap <Leader>b {<S-V>}k
 nmap <Leader>s <Leader>b:sort<cr>
 
 "Easymotion shortcut
-nmap s <Plug>(easymotion-bd-w)
+nmap <Leader>w <Plug>(easymotion-bd-w)
 
 "TComment shortcut
 nmap <Leader>c <c-_><c-_>

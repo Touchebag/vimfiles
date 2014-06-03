@@ -45,6 +45,12 @@ Plugin 'scrooloose/nerdtree'
 
 "Easymotion
 Plugin 'Lokaltog/vim-easymotion'
+
+"Autoclose
+Plugin 'Townk/vim-autoclose'
+
+"TComment
+Plugin 'tomtom/tcomment_vim'
 "}}}
 
 "End Vundle stuff
@@ -210,5 +216,9 @@ nmap <Leader>s <Leader>b:sort<cr>
 
 "Easymotion shortcut
 nmap s <Plug>(easymotion-bd-w)
+
+"TComment shortcut
+nmap <Leader>c <c-_><c-_>
+vmap <Leader>c <c-_><c-_>
 "}}}
 

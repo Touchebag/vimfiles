@@ -46,9 +46,6 @@ Plugin 'scrooloose/nerdtree'
 "Easymotion
 Plugin 'Lokaltog/vim-easymotion'
 
-"Autoclose
-Plugin 'Townk/vim-autoclose'
-
 "TComment
 Plugin 'tomtom/tcomment_vim'
 "}}}

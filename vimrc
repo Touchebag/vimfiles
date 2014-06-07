@@ -18,8 +18,8 @@ if hostname == "Robin-PC"
   au GUIEnter * simalt ~x
 
   "Vundle TODO check if it actually works
-  set rtp+='$HOME/vimfiles/bundle/Vundle.vim'
-  call vundle#begin('$HOME/vimfiles/bundle')
+  set rtp+=$VIM/vimfiles/bundle/Vundle.vim
+  call vundle#begin('$VIM/vimfiles/bundle')
 elseif hostname == "robin-laptop"
   "Vundle
   set rtp+=$HOME/.vim/bundle/Vundle.vim

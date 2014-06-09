@@ -227,5 +227,8 @@ nmap <Leader>w <Plug>(easymotion-bd-w)
 "TComment shortcut
 nmap <Leader>c <c-_><c-_>
 vmap <Leader>c <c-_><c-_>
+
+"Unbind ex mode shortcut
+nmap <S-Q> <Nop>
 "}}}
 

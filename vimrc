@@ -127,6 +127,9 @@ set smartcase
 
 "Show search matches while typing
 set incsearch
+
+"Can move outside text in visual block mode
+set virtualedit=block
 "}}}
 
 "{{{ Colour and highlighting options

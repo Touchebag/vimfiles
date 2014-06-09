@@ -130,6 +130,10 @@ set incsearch
 
 "Can move outside text in visual block mode
 set virtualedit=block
+
+"Make split put new window 'after' current
+set splitbelow
+set splitright
 "}}}
 
 "{{{ Colour and highlighting options

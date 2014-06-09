@@ -124,6 +124,9 @@ set scrolloff=3
 "Semi-case-insesitive search
 set ignorecase
 set smartcase
+
+"Show search matches while typing
+set incsearch
 "}}}
 
 "{{{ Colour and highlighting options

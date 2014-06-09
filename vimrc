@@ -122,6 +122,7 @@ set hlsearch
 set scrolloff=3
 
 "Semi-case-insesitive search
+set ignorecase
 set smartcase
 "}}}
 

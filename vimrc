@@ -137,6 +137,9 @@ set virtualedit=block
 "Make split put new window 'after' current
 set splitbelow
 set splitright
+
+"Show autocompletion options
+set wildmenu
 "}}}
 
 "{{{ Colour and highlighting options

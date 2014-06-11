@@ -48,6 +48,9 @@ Plugin 'Lokaltog/vim-easymotion'
 
 "TComment
 Plugin 'tomtom/tcomment_vim'
+
+"HLinkTrace
+Plugin 'gerw/vim-HiLinkTrace'
 "}}}
 
 "End Vundle stuff

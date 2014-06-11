@@ -162,16 +162,7 @@ if hostname == "robin-laptop"
   highlight CursorLine cterm=NONE ctermbg=59
 elseif hostname == "Robin-PC"
 "Normal colourscheme for PC
-  colorscheme mustang
-
-  "Colour of TODO tag
-  highlight TodoColor guifg=white guibg=blue
-
-  "Automatically higlight TODO tag
-  augroup HiglightTODO
-    autocmd!
-    autocmd WinEnter,VimEnter * :silent! call matchadd('TodoColor', 'TODO', -1)
-  augroup END
+  colorscheme newtheme
 endif
 
 "Highlight long lines after column 80

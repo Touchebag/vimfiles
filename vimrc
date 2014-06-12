@@ -17,7 +17,7 @@ if hostname == "Robin-PC"
   "Maximises window
   au GUIEnter * simalt ~x
 
-  "Vundle TODO check if it actually works
+  "Vundle init
   set rtp+=$VIM/vimfiles/bundle/Vundle.vim
   call vundle#begin('$VIM/vimfiles/bundle')
 elseif hostname == "robin-laptop"
@@ -144,22 +144,23 @@ set wildmenu
 
 "{{{ Colour and highlighting options
 "Colour of cursor marking
-highlight CursorLine guibg=#555555
-highlight CursorColumn guibg=#AAAAAA
+" highlight CursorLine guibg=#555555
+" highlight CursorColumn guibg=#AAAAAA
 
 "System dependent colour settings
 if hostname == "robin-laptop"
+  colorscheme newtheme
 "High contrast color scheme for laptop
-  colorscheme pablo
+  " colorscheme pablo
 
   "Automatically higlight TODO tag
-  augroup HiglightTODO
-    autocmd!
-    autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
-  augroup END
+  " augroup HiglightTODO
+  "   autocmd!
+  "   autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
+  " augroup END
 
   "Fixing line higlighting in terminal
-  highlight CursorLine cterm=NONE ctermbg=59
+  " highlight CursorLine cterm=NONE ctermbg=59
 elseif hostname == "Robin-PC"
 "Normal colourscheme for PC
   colorscheme newtheme

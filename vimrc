@@ -149,25 +149,21 @@ set wildmenu
 
 "System dependent colour settings
 if hostname == "robin-laptop"
+  "High contrast colour scheme for laptop
   colorscheme newtheme
-"High contrast color scheme for laptop
-  " colorscheme pablo
 
   "Automatically higlight TODO tag
-  " augroup HiglightTODO
-  "   autocmd!
-  "   autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
-  " augroup END
-
-  "Fixing line higlighting in terminal
-  " highlight CursorLine cterm=NONE ctermbg=59
+   augroup HiglightTODO
+     autocmd!
+     autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
+   augroup END
 elseif hostname == "Robin-PC"
 "Normal colourscheme for PC
   colorscheme newtheme
 endif
 
 "Highlight long lines after column 80
-match Error /\%81v.\+/
+match DiffDelete  /\%81v.\+/
 
 "Hightlight trailing spaces
 augroup trailing
@@ -175,6 +171,10 @@ augroup trailing
   au InsertEnter * :match none /\s\+$/
   au InsertLeave * :match Error /\s\+$/
 augroup END
+
+"Syntastic highlight groups
+highlight syntasticWarningSign guifg=#0000FF ctermfg=12 guibg=#FFFF00 ctermbg=11
+highlight syntasticErrorSign guifg=#FFFFFF ctermfg=15 guibg=#FF0000 ctermbg=9
 "}}}
 
 "{{{ Mappings

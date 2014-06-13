@@ -42,7 +42,7 @@ hi   Float                 guifg=#FF20A0   ctermfg=199    guibg=NONE      ctermb
 hi   FoldColumn            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Folded                guifg=#AAAAAA   ctermfg=248    guibg=#002266   ctermbg=17     guisp=NONE     gui=bold     cterm=bold
 hi   Function              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   Identifier            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   Identifier            guifg=#00CCCC   ctermfg=45     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Ignore                guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   IncSearch             guifg=#ff0000   ctermfg=9      guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Include               guifg=#00B81C   ctermfg=34     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
@@ -51,6 +51,8 @@ hi   Label                 guifg=NONE      ctermfg=NONE   guibg=NONE      ctermb
 hi   LineNr                guifg=#FFFF00   ctermfg=11     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   LocalVariable         guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Macro                 guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   MakeTarget            guifg=#00FFFF   ctermfg=14     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   MakeSpecTarget        guifg=#FFA200   ctermfg=214    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   MatchParen            guifg=NONE      ctermfg=NONE   guibg=#0000CC   ctermbg=20     guisp=NONE     gui=NONE     cterm=NONE
 hi   ModeMsg               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   MoreMsg               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE

@@ -20,7 +20,7 @@ hi   Character             guifg=#00FFFF   ctermfg=14     guibg=NONE      ctermb
 hi   Comment               guifg=#00AAFF   ctermfg=39     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Conditional           guifg=#FFA500   ctermfg=214    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Constant              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   Cursor                guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   Cursor                guifg=#FFFFFF   ctermfg=15     guibg=#FFFFFF   ctermbg=15     guisp=NONE     gui=NONE     cterm=NONE
 hi   CursorColumn          guifg=NONE      ctermfg=NONE   guibg=#444444   ctermbg=241    guisp=NONE     gui=NONE     cterm=NONE
 hi   CursorLine            guifg=NONE      ctermfg=NONE   guibg=#444444   ctermbg=241    guisp=NONE     gui=bold     cterm=NONE
 hi   CursorLineNr          guifg=#FFFF00   ctermfg=11     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE

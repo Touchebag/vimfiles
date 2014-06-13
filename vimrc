@@ -32,6 +32,14 @@ endif
 filetype plugin on
 syntax on
 
+"Change cursor in terminal
+if hostname == laptop
+  if &term =~ "xterm\\|urxvt"
+    let &t_SI .= "\<Esc>[5 q"
+    let &t_EI .= "\<Esc>[1 q"
+  endif
+endif
+
 "{{{Vundle plugins
 "Let Vundle handle itself
 Plugin 'gmarik/Vundle.vim'

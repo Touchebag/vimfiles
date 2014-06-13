@@ -1,5 +1,7 @@
 "Get the hostname
 let hostname = substitute(system('hostname'), '\n', '', '')
+let homepc = "Robin-PC"
+let laptop = "robin-laptop"
 
 "Force iMproved mode
 set nocompatible
@@ -8,7 +10,7 @@ set nocompatible
 filetype off
 
 "OS specific stuff
-if hostname == "Robin-PC"
+if hostname == homepc
   "Use windows bindings in windows
   source $VIMRUNTIME/vimrc_example.vim
   source $VIMRUNTIME/mswin.vim
@@ -20,7 +22,7 @@ if hostname == "Robin-PC"
   "Vundle init
   set rtp+=$VIM/vimfiles/bundle/Vundle.vim
   call vundle#begin('$VIM/vimfiles/bundle')
-elseif hostname == "robin-laptop"
+elseif hostname == laptop
   "Vundle
   set rtp+=$HOME/.vim/bundle/Vundle.vim
   call vundle#begin()
@@ -148,7 +150,7 @@ set wildmenu
 " highlight CursorColumn guibg=#AAAAAA
 
 "System dependent colour settings
-if hostname == "robin-laptop"
+if hostname == laptop
   "High contrast colour scheme for laptop
   colorscheme newtheme
 
@@ -157,7 +159,7 @@ if hostname == "robin-laptop"
      autocmd!
      autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
    augroup END
-elseif hostname == "Robin-PC"
+elseif hostname == homepc
 "Normal colourscheme for PC
   colorscheme newtheme
 endif

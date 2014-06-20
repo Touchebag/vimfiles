@@ -61,6 +61,9 @@ Plugin 'tomtom/tcomment_vim'
 
 "HLinkTrace
 Plugin 'gerw/vim-HiLinkTrace'
+
+"SuperTab
+Plugin 'ervandew/supertab'
 "}}}
 
 "End Vundle stuff

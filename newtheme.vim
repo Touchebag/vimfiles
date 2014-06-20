@@ -44,7 +44,7 @@ hi   Folded                guifg=#AAAAAA   ctermfg=248    guibg=#002266   ctermb
 hi   Function              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Identifier            guifg=#00CCCC   ctermfg=45     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Ignore                guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   IncSearch             guifg=#ff0000   ctermfg=9      guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   IncSearch             guifg=#FF0000   ctermfg=9      guibg=#FFFF00   ctermbg=11     guisp=NONE     gui=NONE     cterm=NONE
 hi   Include               guifg=#00B81C   ctermfg=34     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Keyword               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Label                 guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
@@ -68,7 +68,7 @@ hi   PreCondit             guifg=NONE      ctermfg=NONE   guibg=NONE      ctermb
 hi   PreProc               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Question              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Repeat                guifg=#FFA500   ctermfg=214    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   Search                guifg=#FF0000   ctermfg=9      guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   Search                guifg=#FF0000   ctermfg=9      guibg=#FFFF00   ctermbg=11     guisp=NONE     gui=NONE     cterm=NONE
 hi   SignColumn            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Special               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   SpecialChar           guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE

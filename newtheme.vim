@@ -50,7 +50,7 @@ hi   Keyword               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermb
 hi   Label                 guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   LineNr                guifg=#FFFF00   ctermfg=11     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   LocalVariable         guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   Macro                 guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   Macro                 guifg=#00B81C   ctermfg=34     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   MakeTarget            guifg=#00FFFF   ctermfg=14     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   MakeSpecTarget        guifg=#FFA200   ctermfg=214    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   MatchParen            guifg=NONE      ctermfg=NONE   guibg=#0000CC   ctermbg=20     guisp=NONE     gui=NONE     cterm=NONE
@@ -64,7 +64,7 @@ hi   PMenu                 guifg=NONE      ctermfg=NONE   guibg=NONE      ctermb
 hi   PMenuSbar             guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   PMenuSel              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   PMenuThumb            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   PreCondit             guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   PreCondit             guifg=#00B81C   ctermfg=34     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   PreProc               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Question              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Repeat                guifg=#FFA500   ctermfg=214    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE

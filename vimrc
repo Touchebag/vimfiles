@@ -156,10 +156,6 @@ set wildmenu
 "}}}
 
 "{{{ Colour and highlighting options
-"Colour of cursor marking
-" highlight CursorLine guibg=#555555
-" highlight CursorColumn guibg=#AAAAAA
-
 "System dependent colour settings
 if hostname == laptop
   "High contrast colour scheme for laptop
@@ -248,5 +244,8 @@ vmap <Leader>c <c-_><c-_>
 
 "Unbind ex mode shortcut
 nmap <S-Q> <Nop>
+
+"Allow write in insert mode
+inoremap :w<cr> <Esc>:w<cr>a
 "}}}
 

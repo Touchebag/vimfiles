@@ -91,9 +91,10 @@ hi   TabLineSel            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermb
 hi   Tag                   guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Todo                  guifg=#FF00FF   ctermfg=15     guibg=#FF00FF   ctermbg=13     guisp=NONE     gui=NONE     cterm=NONE
 hi   Type                  guifg=#BF728F   ctermfg=132    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   Typedef               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   Typedef               guifg=#00B81C   ctermfg=34     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Underlined            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Union                 guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   VarId                 guifg=#FF8700   ctermfg=208    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   VertSplit             guifg=NONE      ctermfg=NONE   guibg=#CCCCCC   ctermbg=252    guisp=NONE     gui=NONE     cterm=NONE
 hi   Visual                guifg=NONE      ctermfg=NONE   guibg=#AAAAAA   ctermbg=248    guisp=NONE     gui=NONE     cterm=NONE
 hi   VisualNOS             guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE

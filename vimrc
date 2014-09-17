@@ -229,11 +229,14 @@ nnoremap <S-K> <Nop>
 "Yank rest of line
 nnoremap <S-Y> <S-D>u
 
-"Selects a block
+"Select a block
 nnoremap <Leader>b {<S-V>}k
 
-"Sorts a block
+"Sort a block
 nmap <Leader>s <Leader>b:sort<cr>
+
+"Fit block to line width
+nmap <Leader>gq {o<Esc>j<Leader>b<S-J>gqq
 
 "Easymotion shortcut
 nmap <Leader>w <Plug>(easymotion-bd-w)

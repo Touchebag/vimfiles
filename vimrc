@@ -187,6 +187,9 @@ highlight syntasticErrorSign guifg=#FFFFFF ctermfg=15 guibg=#FF0000 ctermbg=9
 "}}}
 
 "{{{ Mappings
+"Change leader key
+let mapleader=";"
+
 "Unbind f1
 map <f1> <nop>
 imap <f1> <Esc>
@@ -250,5 +253,8 @@ nmap <S-Q> <Nop>
 
 "Allow write in insert mode
 inoremap :w<cr> <Esc>:w<cr>a
+
+"Change Easymotion shortcut
+map <Leader>f <Plug>(easymotion-bd-w)
 "}}}
 

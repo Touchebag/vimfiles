@@ -255,6 +255,7 @@ nmap <S-Q> <Nop>
 inoremap :w<cr> <Esc>:w<cr>a
 
 "Change Easymotion shortcut
+map <Leader>w <Nop>
 map <Leader>f <Plug>(easymotion-bd-w)
 "}}}
 

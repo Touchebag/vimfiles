@@ -17,6 +17,7 @@ hi   CTagsGlobalVariable   guifg=NONE      ctermfg=NONE   guibg=NONE      ctermb
 hi   CTagsImport           guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   CTagsMember           guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Character             guifg=#00FFFF   ctermfg=14     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   ColorColumn           guifg=#CC0000   ctermfg=1      guibg=#121212   ctermbg=233    guisp=NONE     gui=NONE     cterm=NONE
 hi   Comment               guifg=#00AAFF   ctermfg=39     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Conditional           guifg=#FFA500   ctermfg=214    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Constant              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE

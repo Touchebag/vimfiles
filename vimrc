@@ -160,7 +160,7 @@ set wildmenu
 colorscheme newtheme
 
 "Highlight long lines after column 80
-match DiffDelete  /\%81v.\+/
+let &colorcolumn=join(range(81,999),",")
 
 "Hightlight trailing spaces
 augroup trailing

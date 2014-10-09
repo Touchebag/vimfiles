@@ -156,20 +156,8 @@ set wildmenu
 "}}}
 
 "{{{ Colour and highlighting options
-"System dependent colour settings
-if hostname == laptop
-  "High contrast colour scheme for laptop
-  colorscheme newtheme
-
-  "Automatically higlight TODO tag
-   augroup HiglightTODO
-     autocmd!
-     autocmd WinEnter,VimEnter * :silent! call matchadd('Error', 'TODO', -1)
-   augroup END
-elseif hostname == homepc
-"Normal colourscheme for PC
-  colorscheme newtheme
-endif
+"Custom colour scheme
+colorscheme newtheme
 
 "Highlight long lines after column 80
 match DiffDelete  /\%81v.\+/

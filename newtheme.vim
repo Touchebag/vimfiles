@@ -89,7 +89,7 @@ hi   TabLine               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermb
 hi   TabLineFill           guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   TabLineSel            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Tag                   guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   Todo                  guifg=#FF00FF   ctermfg=15     guibg=#FF00FF   ctermbg=13     guisp=NONE     gui=NONE     cterm=NONE
+hi   Todo                  guifg=#FFFFFF   ctermfg=15     guibg=#FF00FF   ctermbg=13     guisp=NONE     gui=NONE     cterm=NONE
 hi   Type                  guifg=#BF728F   ctermfg=132    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Typedef               guifg=#00B81C   ctermfg=34     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Underlined            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE

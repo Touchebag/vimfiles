@@ -242,6 +242,10 @@ nmap <S-Q> <Nop>
 "Allow write in insert mode
 inoremap :w<cr> <Esc>:w<cr>a
 
+"Rebind wq to avoid accidentally closing
+cnoreabbrev wq <Nop>
+command WQ wq
+
 "Change Easymotion shortcut
 map <Leader>w <Nop>
 map <Leader>f <Plug>(easymotion-bd-w)

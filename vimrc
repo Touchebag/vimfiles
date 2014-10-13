@@ -243,8 +243,8 @@ nmap <S-Q> <Nop>
 inoremap :w<cr> <Esc>:w<cr>a
 
 "Rebind wq to avoid accidentally closing
-cnoreabbrev wq <Nop>
-command WQ wq
+cnoreabbrev wq w
+command! WQ wq
 
 "Change Easymotion shortcut
 map <Leader>w <Nop>

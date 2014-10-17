@@ -73,7 +73,6 @@ filetype plugin indent on
 "Syntastic
 let g:syntastic_enable_signs=1
 let g:syntastic_mode_map={'mode': 'passive'}
-"let g:syntastic_check_on_open=1
 
 "{{{ Set options
 "Set default fileformat to unix
@@ -242,12 +241,17 @@ nmap <S-Q> <Nop>
 "Allow write in insert mode
 inoremap :w<cr> <Esc>:w<cr>a
 
+"Change Easymotion shortcut
+map <Leader>w <Nop>
+map <Leader>f <Plug>(easymotion-bd-w)
+
+"{{{ Custom commands
 "Rebind wq to avoid accidentally closing
 cnoreabbrev wq w
 command! WQ wq
 
-"Change Easymotion shortcut
-map <Leader>w <Nop>
-map <Leader>f <Plug>(easymotion-bd-w)
+"Quick command for removing trailing spaces
+command RemoveSpaces %s/\s\+$/
+"}}}
 "}}}
 

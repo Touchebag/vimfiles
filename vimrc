@@ -130,9 +130,6 @@ set cursorline cursorcolumn
 "Setting g flag for serach and replace as default
 set gdefault
 
-"Make sure hlsearch is on
-set hlsearch
-
 "Leave a few lines when scrolling
 set scrolloff=3
 

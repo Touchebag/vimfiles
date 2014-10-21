@@ -248,7 +248,7 @@ cnoreabbrev wq w
 command! WQ wq
 
 "Quick command for removing trailing spaces
-command RemoveSpaces %s/\s\+$/
+command! RemoveSpaces %s/\s\+$/
 "}}}
 "}}}
 

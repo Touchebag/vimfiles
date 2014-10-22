@@ -214,7 +214,7 @@ nnoremap k gk
 nnoremap <S-K> <Nop>
 
 "Yank rest of line
-nnoremap <S-Y> <S-D>u
+nnoremap <S-Y> "0<S-D>u
 
 "Select a block
 nnoremap <Leader>b {<S-V>}k

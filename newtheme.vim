@@ -74,7 +74,7 @@ hi   Search                guifg=#FF0000   ctermfg=9      guibg=#FFFF00   ctermb
 hi   SignColumn            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Special               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   SpecialChar           guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   SpecialComment        guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   SpecialComment        guifg=#D70000   ctermfg=160    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   SpecialKey            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   SpellBad              guifg=NONE      ctermfg=NONE   guibg=#FF0000   ctermbg=9      guisp=NONE     gui=NONE     cterm=NONE
 hi   SpellCap              guifg=#0000FF   ctermfg=12     guibg=#FFFF00   ctermbg=11     guisp=NONE     gui=NONE     cterm=NONE

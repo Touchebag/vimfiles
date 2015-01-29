@@ -64,6 +64,9 @@ Plugin 'gerw/vim-HiLinkTrace'
 
 "SuperTab
 Plugin 'ervandew/supertab'
+
+"Vim-LaTeX
+Plugin 'vim-latex/vim-latex'
 "}}}
 
 "End Vundle stuff
@@ -73,6 +76,13 @@ filetype plugin indent on
 "Syntastic
 let g:syntastic_enable_signs=1
 let g:syntastic_mode_map={'mode': 'passive'}
+
+"Vim-LaTeX
+"Set default compilation target to pdf
+let g:Tex_DefaultTargetFormat = 'pdf'
+
+"Set pdf to compile twice
+let g:Tex_MultipleCompileFormats='pdf, aux'
 
 "{{{ Set options
 "Set default fileformat to unix

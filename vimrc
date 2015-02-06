@@ -82,12 +82,9 @@ filetype plugin indent on
 let g:syntastic_enable_signs=1
 let g:syntastic_mode_map={'mode': 'passive'}
 
-"Vim-LaTeX
-"Set default compilation target to pdf
-let g:Tex_DefaultTargetFormat = 'pdf'
-
-"Set pdf to compile twice
-let g:Tex_MultipleCompileFormats='pdf, aux'
+"Set LaTeX-Box to compile in the background
+let g:LatexBox_latexmk_async=0
+let g:LatexBox_latexmk_preview_continuously=1
 
 "{{{ Set options
 "Set default fileformat to unix
@@ -188,6 +185,7 @@ highlight syntasticErrorSign guifg=#FFFFFF ctermfg=15 guibg=#FF0000 ctermbg=9
 "{{{ Mappings
 "Change leader key
 let mapleader=";"
+let maplocalleader=";"
 
 "Unbind f1
 map <f1> <nop>

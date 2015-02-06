@@ -6,6 +6,8 @@ arch:
 	ln -fsn $(here)/vimrc $(HOME)/.vimrc
 	ln -fsn $(here)/newtheme.vim $(HOME)/.vim/colors/newtheme.vim
 	ln -fsn $(here)/Vundle.vim $(HOME)/.vim/bundle/Vundle.vim
+	# Snippets
+	ln -fsn $(here)/snippets/tex.snippets $(HOME)/.vim/snippets/tex.snippets
 windows:
 	copy newtheme.vim "D:/Program\ Files\ \(x86\)/vim/vimfiles/colors/newtheme.vim"
 

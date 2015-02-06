@@ -65,8 +65,13 @@ Plugin 'gerw/vim-HiLinkTrace'
 "SuperTab
 Plugin 'ervandew/supertab'
 
-"Vim-LaTeX
-Plugin 'vim-latex/vim-latex'
+"Latex-box
+Plugin 'LaTeX-Box-Team/LaTeX-Box'
+
+"Snipmate
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 "}}}
 
 "End Vundle stuff

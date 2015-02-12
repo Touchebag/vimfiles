@@ -255,13 +255,9 @@ inoremap :w<cr> <Esc>:w<cr>a
 map <Leader>w <Nop>
 map <Leader>f <Plug>(easymotion-bd-w)
 
-"Remap p to always paste last yanked text
-nnoremap p "0p
-nnoremap P "0P
-
-"To be able to paste last deleted text
-nnoremap <Leader>P "1P
-nnoremap <Leader>p "1p
+"Paste last yanked text
+nnoremap <Leader>p "0p
+nnoremap <Leader>P "0P
 
 "{{{ Custom commands
 "Rebind wq to avoid accidentally closing

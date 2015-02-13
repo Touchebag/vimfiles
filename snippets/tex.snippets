@@ -1,3 +1,26 @@
+# SECTIONS {{{
+# section
+snippet sec
+	\section{${1}}
+	${0}
+
+# subsection
+snippet ssec
+	\subsection{${1}}
+	${0}
+
+# subsubsection
+snippet sssec
+	\subsubsection{${1}}
+	${0}
+
+# paragraph
+snippet par
+	\paragraph{${1}}
+	${0}
+
+#}}}
+
 # MATH {{{
 # \begin ... \end block
 snippet begin
@@ -7,15 +30,15 @@ snippet begin
 
 # sum
 snippet sum
-	\sum_{${1}}^{${2}} ${0}
+	\sum_{${1}}^{${2}}${0}
 
 # prod
 snippet prod
-	\prod_{${1}}^{${2}} ${0}
+	\prod_{${1}}^{${2}}${0}
 
 # frac
 snippet frac
-	\frac{${1}}{${2}} ${0}
+	\frac{${1}}{${2}}${0}
 
 #}}}
 

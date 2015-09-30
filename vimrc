@@ -217,7 +217,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 "Quick buffer navigation
 map <Leader>n :bn<cr>
-map <Leader>d :bd<cr>
+map <Leader>d :bn\|bd #<cr>
 
 "Navigate wrapped lines
 nnoremap j gj

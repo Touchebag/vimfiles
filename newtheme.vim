@@ -10,7 +10,7 @@ set t_Co=256
 let g:colors_name = "newtheme"
 
 hi   Boolean               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   ConID                 guifg=#BF728F   ctermfg=132    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
+hi   ConID                 guifg=#D700FF   ctermfg=165    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   CTagsClass            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   CTagsGlobalConstant   guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   CTagsGlobalVariable   guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE

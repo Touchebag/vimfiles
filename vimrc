@@ -263,6 +263,8 @@ nnoremap <Leader>P "0P
 "Rebind wq to avoid accidentally closing
 cnoreabbrev wq w
 command! WQ wq
+"Apparently just :W works as wq, unbind
+cnoreabbrev W w
 
 "Quick command for removing trailing spaces
 command! RemoveSpaces %s/\s\+$/

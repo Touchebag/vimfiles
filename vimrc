@@ -238,9 +238,6 @@ nmap <Leader>s <Leader>b:sort<cr>
 "Fit block to line width
 nmap <Leader>gq {o<Esc>j<Leader>b<S-J>gqq
 
-"Easymotion shortcut
-nmap <Leader>w <Plug>(easymotion-bd-w)
-
 "TComment shortcut
 nmap <Leader>c <c-_><c-_>
 vmap <Leader>c <c-_><c-_>
@@ -251,8 +248,7 @@ nmap <S-Q> <Nop>
 "Allow write in insert mode
 inoremap :w<cr> <Esc>:w<cr>a
 
-"Change Easymotion shortcut
-map <Leader>w <Nop>
+"Easymotion shortcut
 map <Leader>f <Plug>(easymotion-bd-w)
 
 "Paste last yanked text

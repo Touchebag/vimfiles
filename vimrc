@@ -223,6 +223,10 @@ map <Leader>d :bn\|bd #<cr>
 nnoremap j gj
 nnoremap k gk
 
+"Shortcuts for page navigation
+noremap <Leader>j <c-d>
+noremap <Leader>k <c-u>
+
 "Unbind help shortcut
 nnoremap <S-K> <Nop>
 

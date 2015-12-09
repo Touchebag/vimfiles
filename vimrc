@@ -255,6 +255,10 @@ inoremap :w<cr> <Esc>:w<cr>a
 "Easymotion shortcut
 map <Leader>f <Plug>(easymotion-bd-w)
 
+"Remove Easymotion shortcuts
+map <Leader><Leader>j <Nop>
+map <Leader><Leader>k <Nop>
+
 "Paste last yanked text
 nnoremap <Leader>p "0p
 nnoremap <Leader>P "0P

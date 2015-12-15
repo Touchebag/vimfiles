@@ -168,7 +168,7 @@ set wildmenu
 colorscheme newtheme
 
 "Highlight long lines after column 80
-let &colorcolumn=join(range(81,999),",")
+set colorcolumn=81
 
 "Hightlight trailing spaces
 augroup trailing

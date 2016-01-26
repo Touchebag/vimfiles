@@ -72,6 +72,9 @@ Plugin 'LaTeX-Box-Team/LaTeX-Box'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
+
+"Vim-dispatch
+Plugin 'tpope/vim-dispatch'
 "}}}
 
 "End Vundle stuff
@@ -139,7 +142,7 @@ set lazyredraw
 "Cursor marking
 set cursorline cursorcolumn
 
-"Setting g flag for serach and replace as default
+"Setting g flag for search and replace as default
 set gdefault
 
 "Leave a few lines when scrolling
@@ -202,9 +205,6 @@ nnoremap <Leader>tb :Tabularize assignment<cr>
 
 "Quick highlight remover
 nnoremap <space> :nohlsearch<cr>
-
-"Remapping enter key to move line down
-nnoremap <cr> I<cr><Esc>
 
 "Easy navigation between tabs
 map <C-J> <C-W>j<C-W><Esc>

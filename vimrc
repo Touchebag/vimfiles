@@ -263,6 +263,9 @@ map <Leader><Leader>k <Nop>
 nnoremap <Leader>p "0p
 nnoremap <Leader>P "0P
 
+"Vim-dispatch shortcut
+nnoremap <Leader>m :Make!<cr>
+
 "{{{ Custom commands
 "Rebind wq to avoid accidentally closing
 cnoreabbrev wq w

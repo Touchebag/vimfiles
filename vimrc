@@ -173,7 +173,7 @@ colorscheme newtheme
 "Highlight long lines after column 80
 set colorcolumn=81
 
-"Hightlight trailing spaces
+"Highlight trailing spaces
 augroup trailing
   au!
   au InsertEnter * :match none /\s\+$/
@@ -265,6 +265,14 @@ nnoremap <Leader>P "0P
 
 "Vim-dispatch shortcut
 nnoremap <Leader>m :Make!<cr>
+
+"Yank to clipboard
+nnoremap <Leader><Leader>y "+y
+vnoremap <Leader><Leader>y "+y
+
+"Paste from clipboard
+nnoremap <Leader><Leader>p "+p
+vnoremap <Leader><Leader>p "+p
 
 "{{{ Custom commands
 "Rebind wq to avoid accidentally closing

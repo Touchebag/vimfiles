@@ -96,6 +96,13 @@ set fileformats=unix,dos
 "To get rid of annoying backup files
 set nobackup
 
+"Central directory for swap files
+if hostname == homepc
+  set directory=$TEMP\\
+elseif hostname == laptop
+  set directory=~/.vim/temp//,.
+endif
+
 "Remove annoying interface stuffz
 "Menu bar
 set guioptions-=m

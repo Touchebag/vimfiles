@@ -30,11 +30,6 @@ snippet par
 #}}}
 
 # MATH {{{
-# \begin ... \end block
-snippet begin
-	\begin{${1:}}
-		${0}
-	\end{$1}
 # sum
 snippet sum
 	\sum_{${1}}^{${2}}${0}
@@ -58,10 +53,15 @@ snippet verb
 	\\verb|${1}|${0}
 # emph
 snippet emph
-	\$\emph{${1}}\$${0}
+	\\emph{${1}}${0}
 #}}}
 
 # ENVIRONMENTS {{{
+# \begin ... \end block
+snippet begin
+	\begin{${1:}}
+		${0}
+	\end{$1}
 # align
 snippet align
 	\begin{align}

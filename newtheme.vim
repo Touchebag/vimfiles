@@ -41,13 +41,13 @@ hi   ErrorMsg              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermb
 hi   Exception             guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Float                 guifg=#FF20A0   ctermfg=199    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   FoldColumn            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   Folded                guifg=#AAAAAA   ctermfg=248    guibg=#002266   ctermbg=17     guisp=NONE     gui=bold     cterm=bold
+hi   Folded                guifg=#AAAAAA   ctermfg=248    guibg=#002266   ctermbg=17     guisp=NONE     gui=NONE     cterm=NONE
 hi   Function              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Identifier            guifg=#00CCCC   ctermfg=45     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Ignore                guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   IncSearch             guifg=#FF0000   ctermfg=9      guibg=#FFFF00   ctermbg=11     guisp=NONE     gui=NONE     cterm=NONE
 hi   Include               guifg=#00B81C   ctermfg=34     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   JavaFold              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=italic   cterm=italic
+hi   JavaFold              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Keyword               guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Label                 guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   LineNr                guifg=#FFFF00   ctermfg=11     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
@@ -101,4 +101,4 @@ hi   VertSplit             guifg=NONE      ctermfg=NONE   guibg=#CCCCCC   ctermb
 hi   Visual                guifg=NONE      ctermfg=NONE   guibg=#AAAAAA   ctermbg=248    guisp=NONE     gui=NONE     cterm=NONE
 hi   VisualNOS             guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   WarningMsg            guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   WildMenu              guifg=#FFFFFF   ctermfg=15     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=bold     cterm=bold
+hi   WildMenu              guifg=#FFFFFF   ctermfg=15     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE

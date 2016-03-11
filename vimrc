@@ -40,6 +40,9 @@ if hostname == laptop
   endif
 endif
 
+"Change font in gvim
+set guifont=Terminal:h9:cOEM
+
 "{{{Vundle plugins
 "Let Vundle handle itself
 Plugin 'gmarik/Vundle.vim'

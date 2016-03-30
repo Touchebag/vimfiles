@@ -117,7 +117,6 @@ set guioptions-=r
 set guioptions-=L
 
 "Line numbering
-set relativenumber
 set number
 
 "Allow hidden (background) buffers

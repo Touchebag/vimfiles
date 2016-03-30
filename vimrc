@@ -231,8 +231,6 @@ map <Leader>d :bn\|bd #<cr>
 "Navigate wrapped lines
 nnoremap j gj
 nnoremap k gk
-vnoremap j gj
-vnoremap k gk
 
 "Shortcuts for page navigation
 noremap <Leader>j <c-d>

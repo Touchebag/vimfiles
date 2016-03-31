@@ -173,6 +173,9 @@ set splitright
 
 "Show autocompletion options
 set wildmenu
+
+"Avoid double spaces when joining lines
+set nojoinspaces
 "}}}
 
 "{{{ Colour and highlighting options

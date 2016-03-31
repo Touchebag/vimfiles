@@ -9,7 +9,7 @@ arch:
 	# Snippets
 	ln -fsn $(here)/snippets $(HOME)/.vim/snippets
 windows:
-	copy newtheme.vim "D:/Program Files (x86)/vim/vimfiles/colors/newtheme.vim"
-	copy snippets/* "D:/Program Files (x86)/vim/vimfiles/snippets/"
+	cp newtheme.vim "D:/Program Files (x86)/vim/vimfiles/colors/newtheme.vim"
+	cp snippets/* "D:/Program Files (x86)/vim/vimfiles/snippets/"
 
 .PHONY: help arch windows

@@ -78,6 +78,9 @@ Plugin 'garbas/vim-snipmate'
 
 "Vim-dispatch
 Plugin 'tpope/vim-dispatch'
+
+"Vim-clang-format
+Plugin 'rhysd/vim-clang-format'
 "}}}
 
 "End Vundle stuff

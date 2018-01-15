@@ -81,6 +81,9 @@ Plugin 'tpope/vim-dispatch'
 
 "Vim-clang-format
 Plugin 'rhysd/vim-clang-format'
+
+"Vim-minimap
+Plugin 'severin-lemaignan/vim-minimap'
 "}}}
 
 "End Vundle stuff

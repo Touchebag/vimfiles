@@ -32,6 +32,11 @@ endif
 filetype plugin on
 syntax on
 
+"..except when diffing
+if &diff
+  syntax off
+endif
+
 "Change cursor in terminal
 if hostname == laptop
   if &term =~ "xterm\\|urxvt"

@@ -107,6 +107,9 @@ let g:LatexBox_latexmk_preview_continuously=1
 "Set default fileformat to unix
 set fileformats=unix,dos
 
+"Add status line for current file name
+set laststatus=2
+
 "To get rid of annoying backup files
 set nobackup
 

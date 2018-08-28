@@ -145,10 +145,10 @@ set textwidth=0
 set wrapmargin=0
 
 "Set size of tabs
-set tabstop=2
+set tabstop=4
 
 "Set size of an indent
-set shiftwidth=2
+set shiftwidth=4
 
 "Make tab insert indents instead of tabs
 set smarttab

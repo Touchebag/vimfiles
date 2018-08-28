@@ -17,7 +17,6 @@ hi   CTagsGlobalVariable   guifg=NONE      ctermfg=NONE   guibg=NONE      ctermb
 hi   CTagsImport           guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   CTagsMember           guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Character             guifg=#00FFFF   ctermfg=14     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   ColorColumn           guifg=#CC0000   ctermfg=1      guibg=#121212   ctermbg=233    guisp=NONE     gui=NONE     cterm=NONE
 hi   Comment               guifg=#00AAFF   ctermfg=39     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Conditional           guifg=#FFA500   ctermfg=214    guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Constant              guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
@@ -25,7 +24,7 @@ hi   Cursor                guifg=#FFFFFF   ctermfg=15     guibg=#FFFFFF   ctermb
 hi   CursorColumn          guifg=NONE      ctermfg=NONE   guibg=#303030   ctermbg=236    guisp=NONE     gui=NONE     cterm=NONE
 hi   CursorLine            guifg=NONE      ctermfg=NONE   guibg=#303030   ctermbg=236    guisp=NONE     gui=NONE     cterm=NONE
 hi   CursorLineNr          guifg=#FFFF00   ctermfg=11     guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
-hi   ColorColumn           guifg=NONE      ctermfg=NONE   guibg=#202020   ctermbg=234    guisp=NONE     gui=NONE     cterm=NONE
+hi   ColorColumn           guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Debug                 guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   Define                guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE
 hi   DefinedName           guifg=NONE      ctermfg=NONE   guibg=NONE      ctermbg=NONE   guisp=NONE     gui=NONE     cterm=NONE

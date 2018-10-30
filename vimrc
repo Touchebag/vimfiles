@@ -301,12 +301,6 @@ nnoremap <Leader><Leader>p "+p
 vnoremap <Leader><Leader>p "+p
 
 "{{{ Custom commands
-"Rebind wq to avoid accidentally closing
-cnoreabbrev wq w
-command! WQ wq
-"Apparently just :W works as wq, unbind
-cnoreabbrev W w
-
 "Quick command for removing trailing spaces
 command! RemoveSpaces %s/\s\+$/
 "}}}

@@ -105,6 +105,7 @@ let g:LatexBox_latexmk_preview_continuously=1
 
 "{{{ Set options
 "Set default fileformat to unix
+set fileformat=unix
 set fileformats=unix,dos
 
 "Add status line for current file name

@@ -1,8 +1,3 @@
-"Get the hostname
-let hostname = substitute(system('hostname'), '\n', '', '')
-let homepc = "Robin-PC"
-let laptop = "robin-laptop"
-
 "Force iMproved mode
 set nocompatible
 
@@ -10,7 +5,7 @@ set nocompatible
 filetype off
 
 "OS specific stuff
-if hostname == homepc
+if has('win32')
   "Use windows bindings in windows
   source $VIMRUNTIME/vimrc_example.vim
   source $VIMRUNTIME/mswin.vim
@@ -22,10 +17,16 @@ if hostname == homepc
   "Vundle init
   set rtp+=$VIM/vimfiles/bundle/Vundle.vim
   call vundle#begin('$VIM/vimfiles/bundle')
-elseif hostname == laptop
+elseif has('unix')
   "Vundle
   set rtp+=$HOME/.vim/bundle/Vundle.vim
   call vundle#begin()
+
+  if &term =~ "xterm\\|urxvt"
+    let &t_SI .= "\<Esc>[5 q"
+    let &t_EI .= "\<Esc>[1 q"
+  endif
+
 endif
 
 "Syntax highlighting
@@ -35,14 +36,6 @@ syntax on
 "..except when diffing
 if &diff
   syntax off
-endif
-
-"Change cursor in terminal
-if hostname == laptop
-  if &term =~ "xterm\\|urxvt"
-    let &t_SI .= "\<Esc>[5 q"
-    let &t_EI .= "\<Esc>[1 q"
-  endif
 endif
 
 "Change font in gvim
@@ -115,9 +108,9 @@ set laststatus=2
 set nobackup
 
 "Central directory for swap files
-if hostname == homepc
+if has('win32')
   set directory=$TEMP\\
-elseif hostname == laptop
+elseif has('unix')
   set directory=~/.vim/temp//,.
 endif
 
